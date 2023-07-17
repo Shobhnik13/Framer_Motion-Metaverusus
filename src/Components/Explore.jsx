@@ -8,7 +8,7 @@ import { exploreWorlds } from '../utils/Data'
 import Explorecards from './Explorecards'
 
 const Explore = () => {
-  const [active,setActive]=useState('world-2')
+  const [active,setActive]=useState('world-1')
   return (
     <section className={`${styles.paddings}`} id='explore' >
       {/* thsi div will animate all child  */}
@@ -23,13 +23,16 @@ const Explore = () => {
             {/* child 2-title */}
             <Titletext title={<>Choose the world you want <br className='md:block hidden'/>to explore</>} textStyles='text-center'/>
             {/* child 3-images */}
-              <div className=''>
+              <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5'>
                   {/* this div contains a mapping of images  */}
-                  {exploreWorlds.map((item)=>{
+                  {exploreWorlds.map((item,index)=>{
                     return(
                           <Explorecards
                           key={item.id}
-                          {...item}
+                          id={item.id}
+                          index={index}
+                          imgUrl={item.imgUrl}
+                          title={item.title}
                           active={active}
                           handleClick={setActive}/>
                     )
