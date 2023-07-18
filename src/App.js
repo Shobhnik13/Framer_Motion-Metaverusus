@@ -5,6 +5,7 @@ import Explore from './Components/Explore';
 import Getstarted from './Components/Getstarted';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
+import Whatsnew from './Components/Whatsnew';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <div className='relative'>
         <Getstarted/>
           <div className='gradient-04 z-0'/>
+        <Whatsnew/>
       </div>
 </div>
   );
