@@ -3,7 +3,7 @@ import React from 'react'
 import { fadeIn } from '../utils/Motion'
 import Headset from '../assets/Headset.svg'
 import styles from '../Styles'
-function Explorecards({imgUrl,title,key,active,handleClick,index,id}) {
+function Explorecards({imgUrl,title,active,handleClick,index,id}) {
   return (
     <motion.div
     // key*0.5 bcoz to delay dynamically (one after another -> ex-> 1*0.5 ,2*0.5 )
