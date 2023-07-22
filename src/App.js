@@ -2,6 +2,8 @@
 import './App.css';
 import About from './Components/About';
 import Explore from './Components/Explore';
+import Feedback from './Components/Feedback';
+import Footer from './Components/Footer';
 import Getstarted from './Components/Getstarted';
 import Hero from './Components/Hero';
 import Insights from './Components/Insights';
@@ -33,7 +35,9 @@ function App() {
     <div className='relative'>
         <Insights/>
           <div className='gradient-04 z-0'/>
+        <Feedback/>
     </div>
+    <Footer/>
 </div>
   );
 }
