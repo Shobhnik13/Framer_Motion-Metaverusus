@@ -5,6 +5,9 @@ import image4 from '../assets/Planet_04.png'
 import image5 from '../assets/Planet_05.png'
 import image6 from '../assets/Headset.svg'
 import image7 from '../assets/Vrpano.svg'
+import image8 from '../assets/Planet_06.png'
+import image9 from '../assets/Planet_07.png'
+import image10 from '../assets/Planet_08.png'
 
 export const exploreWorlds = [
     {
@@ -62,3 +65,24 @@ export const exploreWorlds = [
   ];
 
   
+
+  export const insights = [
+    {
+      imgUrl: image8,
+      title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+      subtitle:
+          'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+    },
+    {
+      imgUrl: image9,
+      title: '7 tips to easily master the madness of the Metaverse',
+      subtitle:
+          'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+    },
+    {
+      imgUrl: image10,
+      title: 'With one platform you can explore the whole world virtually',
+      subtitle:
+          'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+    },
+  ];
